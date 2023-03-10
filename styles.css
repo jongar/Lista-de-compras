@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100%;;
+}
+
 body{
     background-color: #e0e3ef;
 }
@@ -5,15 +13,15 @@ body{
 .main-class{
     color: black;
     font-size: 25px;
-    list-style: none;     
+    list-style: none;
+    width: fit-content;     
 }
 
 .main-class-item {
     color: black;
     font-size: 18px;
     text-decoration: none;
-    border-radius: 2px;
-    display:flex;
+    width:fit-content;
 }
 
 .main-class-item:hover{
@@ -22,9 +30,9 @@ body{
 
 h1{
     color: black;
-    padding-left: 5pxs;
+    width: fit-content;
     
 }
-.main-class-pic {
-    display: block;
-}
+
+
+
