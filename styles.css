@@ -5,34 +5,53 @@ main{
     width: 100%;
     height: 100%;;
 }
-
+header{
+    background-color: #262529;
+    padding: 0;
+    margin: 0;
+}
 body{
-    background-color: #e0e3ef;
+    background-color: #262529;
 }
 
 .main-class{
-    color: black;
+    color: #b1b2bb;
     font-size: 25px;
     list-style: none;
-    width: fit-content;     
+    width: fit-content;   
+    display: inline-block;  
 }
 
-.main-class-item {
-    color: black;
+.main-class__item {
+    color: #b1b2bb;
     font-size: 18px;
-    text-decoration: none;
     width:fit-content;
+    list-style: none;
 }
 
-.main-class-item:hover{
-    color: blue;
+.main-class__item a{
+
+    color: #b1b2bb;
+    text-decoration: none;
+    display:block;
+
 }
 
-h1{
-    color: black;
+.main-class__img{
+    display: block;
+    margin-right: 0%;
+}
+
+.main-class__item a:hover{
+    color: #807e83;
+}
+
+.main-text{
+    color: #b1b2bb;
+    width: fit-content;    
+}
+
+ol{
     width: fit-content;
-    
 }
-
-
 
