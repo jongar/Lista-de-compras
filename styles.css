@@ -40,6 +40,7 @@ body{
 .main-class__img{
     display: block;
     margin-right: 0%;
+    border-radius: 5px;
 }
 
 .main-class__item a:hover{
